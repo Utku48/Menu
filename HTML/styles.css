@@ -1,0 +1,67 @@
+.double-space {
+    margin-bottom: 1.5em;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Changing font to a more playful one */
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, .5)),
+        url('Photos/AnaMenu/soguk\ Kahve.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(187, 187, 187, 0.15);
+    /* Soft pink background color */
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Diğer stiller */
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    /* Yazı boyutunu ayarlayın */
+    padding: 16px 32px;
+    border: 5px solid #ffffff;
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: rgba(255, 255, 255,.75);
+}
+
+nav ul li a:hover {
+    background-color: #736d6d;
+
+    color: #fff;
+}
+
+/* Diğer stiller */
